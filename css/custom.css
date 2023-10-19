@@ -19,9 +19,16 @@ header {
     background: white;
     text-align: center;
 }
+#lista-carrito img{
+    display: none;
+}
+
 @media (min-width: 750px) {
     header {
         text-align: left;
+    }
+    #lista-carrito img{
+        display: initial;
     }
 }
 .borrar-curso {
@@ -150,11 +157,13 @@ ul {
     .card {
         text-align: left;
     }
+    #lista-carrito img{
+        display: initial;
+    }
 }
 .info-card  {
     padding: 10px 20px;
 }
-
 .info-card p, 
 .card h4 {
     margin-bottom: 5px;
